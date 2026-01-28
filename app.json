@@ -1,5 +1,6 @@
 {
   "expo": {
+    "owner": "bacon",
     "orientation": "default",
     "scheme": "acme",
     "userInterfaceStyle": "automatic",
@@ -13,6 +14,11 @@
     },
     "plugins": [
       "@bacons/apple-colors"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d5b79a6a-480a-457a-b41c-7969a4a7a82d"
+      }
+    }
   }
 }
